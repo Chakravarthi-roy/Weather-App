@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dancing Script';
+}
+
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    width: 480px;
+    margin: 100px auto;
+    padding: 40px 10px 0 10px;
+    background: linear-gradient(135deg, #90e0ef, #48cae4, #00b4d8, #0077b6, #03045e);
+    text-align: center;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 7px 7px 5px;
+}
+
+.inputs{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.inputs input{
+    height: 3.5rem;
+    width: 20rem;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    padding-left: 30px;
+    font-family: 'Dancing Script';
+    font-size: 25px;
+    font-weight: bold;
+    opacity: 0.8;
+}
+.inputs button{
+    height: 3rem;
+    width: 3rem;
+    background-image: url(search.webp);
+    background-size: cover;
+    border: none;
+    border-radius: 50%;
+    background-size: cover;
+    margin-top: 5px;
+}
+
+.display{
+    text-align: center;
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px 0 10px 0;
+}
+#display1{
+    font-size: 50px;
+}
+#display2{
+    font-size: 25px;
+}
+
+#footer{
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 28px;
+    font-weight: bold;
+}
+#footer span{
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+}
+#footer1, #footer2{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#rain-image{
+    background-image: url(rain.png);
+}
+#wind-image{
+    background-image: url(wind.png);
+}
+#rain-image, #wind-image{
+    width: 3rem;
+    height: 3rem;
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: 6px 5px 5px black;
+}
+
